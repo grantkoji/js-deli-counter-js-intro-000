@@ -24,7 +24,7 @@ function currentLine(katzDeliLine) {
     linelist = `${linelist} ${(i + 1)}. ${katzDeliLine[i]},`;
   }
     linelist = `${linelist} ${katzDeliLine.length}. ${katzDeliLine[(katzDeliLine.length - 1)]}`;
-
+    console.log(linelist)
     return linelist
   }
 }
